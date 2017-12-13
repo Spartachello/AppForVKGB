@@ -2412,4 +2412,4 @@ depends-external:
 - "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/VK-ios-sdk/VK_ios_sdk.framework/Modules/module.modulemap"
 - "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Modules/module.modulemap"
 - "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Modules/module.modulemap"
-interface-hash: "1d0deaa9668c29f4b0a6be564b9656f9"
+interface-hash: "ad49d50089712000f9cda083478a9c90"
