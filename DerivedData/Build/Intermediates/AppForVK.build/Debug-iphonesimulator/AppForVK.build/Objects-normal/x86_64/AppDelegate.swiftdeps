@@ -14,19 +14,35 @@ provides-dynamic-lookup:
 - "applicationWillTerminate"
 - "window"
 depends-top-level:
+- !private "=="
 - "AppDelegate"
+- !private "Array"
 - "Bool"
 - !private "BooleanLiteralType"
+- "Data"
+- "Error"
+- "String"
+- !private "StringLiteralType"
 - "UIApplication"
 - "UIApplicationDelegate"
 - "UIApplicationLaunchOptionsKey"
 - "UIResponder"
 - "UIWindow"
+- !private "UNUserNotificationCenter"
+- "URL"
+- !private "VKSdk"
+- !private "print"
 depends-member:
 - ["8AppForVK0A8DelegateC", "Bool"]
+- ["8AppForVK0A8DelegateC", "Data"]
+- ["8AppForVK0A8DelegateC", "Error"]
+- ["8AppForVK0A8DelegateC", "String"]
 - ["8AppForVK0A8DelegateC", "UIApplication"]
 - ["8AppForVK0A8DelegateC", "UIApplicationLaunchOptionsKey"]
 - ["8AppForVK0A8DelegateC", "UIWindow"]
+- !private ["8AppForVK0A8DelegateC", "UNUserNotificationCenter"]
+- ["8AppForVK0A8DelegateC", "URL"]
+- !private ["8AppForVK0A8DelegateC", "VKSdk"]
 - ["8AppForVK0A8DelegateC", "application"]
 - ["8AppForVK0A8DelegateC", "applicationDidBecomeActive"]
 - ["8AppForVK0A8DelegateC", "applicationDidEnterBackground"]
@@ -40,8 +56,20 @@ depends-member:
 - ["8AppForVK0A8DelegateC", "applicationWillResignActive"]
 - ["8AppForVK0A8DelegateC", "applicationWillTerminate"]
 - ["8AppForVK0A8DelegateC", "deinit"]
+- ["8AppForVK0A8DelegateC", "getNotificationSettings"]
 - ["8AppForVK0A8DelegateC", "init"]
+- !private ["8AppForVK0A8DelegateC", "print"]
+- ["8AppForVK0A8DelegateC", "registerForPushNotifications"]
 - ["8AppForVK0A8DelegateC", "window"]
+- !private ["Sa", "joined"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "joined"]
+- !private ["s23BidirectionalCollectionP", "map"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "String"]
+- !private ["s7CVarArgP", "UIApplication"]
+- !private ["s7CVarArgP", "UNUserNotificationCenter"]
+- !private ["s7CVarArgP", "VKSdk"]
 - ["s7CVarArgP", "application"]
 - ["s7CVarArgP", "applicationDidBecomeActive"]
 - ["s7CVarArgP", "applicationDidEnterBackground"]
@@ -54,9 +82,27 @@ depends-member:
 - ["s7CVarArgP", "applicationWillEnterForeground"]
 - ["s7CVarArgP", "applicationWillResignActive"]
 - ["s7CVarArgP", "applicationWillTerminate"]
+- !private ["s7CVarArgP", "authorizationStatus"]
+- !private ["s7CVarArgP", "current"]
+- !private ["s7CVarArgP", "getNotificationSettings"]
 - !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "joined"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "processOpen"]
+- !private ["s7CVarArgP", "registerForPushNotifications"]
+- !private ["s7CVarArgP", "registerForRemoteNotifications"]
+- !private ["s7CVarArgP", "requestAuthorization"]
+- !private ["s7CVarArgP", "shared"]
 - ["s7CVarArgP", "window"]
 - ["s7CVarArgP", ""]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "joined"]
+- !private ["s10CollectionP", "map"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- !private ["s28CustomDebugStringConvertibleP", "UIApplication"]
+- !private ["s28CustomDebugStringConvertibleP", "UNUserNotificationCenter"]
+- !private ["s28CustomDebugStringConvertibleP", "VKSdk"]
 - ["s28CustomDebugStringConvertibleP", "application"]
 - ["s28CustomDebugStringConvertibleP", "applicationDidBecomeActive"]
 - ["s28CustomDebugStringConvertibleP", "applicationDidEnterBackground"]
@@ -69,9 +115,31 @@ depends-member:
 - ["s28CustomDebugStringConvertibleP", "applicationWillEnterForeground"]
 - ["s28CustomDebugStringConvertibleP", "applicationWillResignActive"]
 - ["s28CustomDebugStringConvertibleP", "applicationWillTerminate"]
+- !private ["s28CustomDebugStringConvertibleP", "authorizationStatus"]
+- !private ["s28CustomDebugStringConvertibleP", "current"]
+- !private ["s28CustomDebugStringConvertibleP", "getNotificationSettings"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "joined"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "processOpen"]
+- !private ["s28CustomDebugStringConvertibleP", "registerForPushNotifications"]
+- !private ["s28CustomDebugStringConvertibleP", "registerForRemoteNotifications"]
+- !private ["s28CustomDebugStringConvertibleP", "requestAuthorization"]
+- !private ["s28CustomDebugStringConvertibleP", "shared"]
 - ["s28CustomDebugStringConvertibleP", "window"]
 - ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "joined"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- !private ["s23CustomStringConvertibleP", "UIApplication"]
+- !private ["s23CustomStringConvertibleP", "UNUserNotificationCenter"]
+- !private ["s23CustomStringConvertibleP", "VKSdk"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
 - ["s23CustomStringConvertibleP", "application"]
 - ["s23CustomStringConvertibleP", "applicationDidBecomeActive"]
 - ["s23CustomStringConvertibleP", "applicationDidEnterBackground"]
@@ -84,9 +152,35 @@ depends-member:
 - ["s23CustomStringConvertibleP", "applicationWillEnterForeground"]
 - ["s23CustomStringConvertibleP", "applicationWillResignActive"]
 - ["s23CustomStringConvertibleP", "applicationWillTerminate"]
+- !private ["s23CustomStringConvertibleP", "authorizationStatus"]
+- !private ["s23CustomStringConvertibleP", "current"]
+- !private ["s23CustomStringConvertibleP", "getNotificationSettings"]
 - !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "joined"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "processOpen"]
+- !private ["s23CustomStringConvertibleP", "registerForPushNotifications"]
+- !private ["s23CustomStringConvertibleP", "registerForRemoteNotifications"]
+- !private ["s23CustomStringConvertibleP", "requestAuthorization"]
+- !private ["s23CustomStringConvertibleP", "shared"]
 - ["s23CustomStringConvertibleP", "window"]
 - ["s23CustomStringConvertibleP", ""]
+- !private ["10Foundation4DataV", "map"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "joined"]
+- !private ["s9DecodableP", "map"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "joined"]
+- !private ["s9EncodableP", "map"]
+- !private ["s9EquatableP", "String"]
+- !private ["s9EquatableP", "UIApplication"]
+- !private ["s9EquatableP", "UNUserNotificationCenter"]
+- !private ["s9EquatableP", "VKSdk"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "alert"]
 - ["s9EquatableP", "application"]
 - ["s9EquatableP", "applicationDidBecomeActive"]
 - ["s9EquatableP", "applicationDidEnterBackground"]
@@ -99,9 +193,35 @@ depends-member:
 - ["s9EquatableP", "applicationWillEnterForeground"]
 - ["s9EquatableP", "applicationWillResignActive"]
 - ["s9EquatableP", "applicationWillTerminate"]
+- !private ["s9EquatableP", "authorizationStatus"]
+- !private ["s9EquatableP", "authorized"]
+- !private ["s9EquatableP", "badge"]
+- !private ["s9EquatableP", "current"]
+- !private ["s9EquatableP", "getNotificationSettings"]
 - !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "map"]
+- !private ["s9EquatableP", "print"]
+- !private ["s9EquatableP", "processOpen"]
+- !private ["s9EquatableP", "registerForPushNotifications"]
+- !private ["s9EquatableP", "registerForRemoteNotifications"]
+- !private ["s9EquatableP", "requestAuthorization"]
+- !private ["s9EquatableP", "shared"]
+- !private ["s9EquatableP", "sound"]
 - ["s9EquatableP", "window"]
 - ["s9EquatableP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "alert"]
+- !private ["s25ExpressibleByArrayLiteralP", "badge"]
+- !private ["s25ExpressibleByArrayLiteralP", "joined"]
+- !private ["s25ExpressibleByArrayLiteralP", "sound"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "String"]
+- !private ["s8HashableP", "UIApplication"]
+- !private ["s8HashableP", "UNUserNotificationCenter"]
+- !private ["s8HashableP", "VKSdk"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
 - ["s8HashableP", "application"]
 - ["s8HashableP", "applicationDidBecomeActive"]
 - ["s8HashableP", "applicationDidEnterBackground"]
@@ -114,13 +234,43 @@ depends-member:
 - ["s8HashableP", "applicationWillEnterForeground"]
 - ["s8HashableP", "applicationWillResignActive"]
 - ["s8HashableP", "applicationWillTerminate"]
+- !private ["s8HashableP", "authorizationStatus"]
+- !private ["s8HashableP", "authorized"]
+- !private ["s8HashableP", "current"]
+- !private ["s8HashableP", "getNotificationSettings"]
 - !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "map"]
+- !private ["s8HashableP", "print"]
+- !private ["s8HashableP", "processOpen"]
+- !private ["s8HashableP", "registerForPushNotifications"]
+- !private ["s8HashableP", "registerForRemoteNotifications"]
+- !private ["s8HashableP", "requestAuthorization"]
+- !private ["s8HashableP", "shared"]
 - ["s8HashableP", "window"]
 - ["s8HashableP", ""]
+- !private ["10SwiftyJSON17JSONSubscriptTypeP", "init"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "joined"]
+- !private ["s17MutableCollectionP", "map"]
+- !private ["So8NSCodingP", "authorizationStatus"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So9NSCopyingP", "authorizationStatus"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So16NSMutableCopyingP", "init"]
 - ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "Data"]
+- ["So8NSObjectC", "Error"]
+- ["So8NSObjectC", "String"]
 - ["So8NSObjectC", "UIApplication"]
 - ["So8NSObjectC", "UIApplicationLaunchOptionsKey"]
 - ["So8NSObjectC", "UIWindow"]
+- !private ["So8NSObjectC", "UNUserNotificationCenter"]
+- ["So8NSObjectC", "URL"]
+- !private ["So8NSObjectC", "VKSdk"]
 - ["So8NSObjectC", "application"]
 - ["So8NSObjectC", "applicationDidBecomeActive"]
 - ["So8NSObjectC", "applicationDidEnterBackground"]
@@ -133,8 +283,21 @@ depends-member:
 - ["So8NSObjectC", "applicationWillEnterForeground"]
 - ["So8NSObjectC", "applicationWillResignActive"]
 - ["So8NSObjectC", "applicationWillTerminate"]
+- !private ["So8NSObjectC", "authorizationStatus"]
+- !private ["So8NSObjectC", "current"]
+- ["So8NSObjectC", "getNotificationSettings"]
 - ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "print"]
+- !private ["So8NSObjectC", "processOpen"]
+- ["So8NSObjectC", "registerForPushNotifications"]
+- !private ["So8NSObjectC", "registerForRemoteNotifications"]
+- !private ["So8NSObjectC", "requestAuthorization"]
+- !private ["So8NSObjectC", "shared"]
 - ["So8NSObjectC", "window"]
+- !private ["So16NSObjectProtocolP", "String"]
+- !private ["So16NSObjectProtocolP", "UIApplication"]
+- !private ["So16NSObjectProtocolP", "UNUserNotificationCenter"]
+- !private ["So16NSObjectProtocolP", "VKSdk"]
 - ["So16NSObjectProtocolP", "application"]
 - ["So16NSObjectProtocolP", "applicationDidBecomeActive"]
 - ["So16NSObjectProtocolP", "applicationDidEnterBackground"]
@@ -147,9 +310,54 @@ depends-member:
 - ["So16NSObjectProtocolP", "applicationWillEnterForeground"]
 - ["So16NSObjectProtocolP", "applicationWillResignActive"]
 - ["So16NSObjectProtocolP", "applicationWillTerminate"]
+- !private ["So16NSObjectProtocolP", "authorizationStatus"]
+- !private ["So16NSObjectProtocolP", "current"]
+- !private ["So16NSObjectProtocolP", "getNotificationSettings"]
 - !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "print"]
+- !private ["So16NSObjectProtocolP", "processOpen"]
+- !private ["So16NSObjectProtocolP", "registerForPushNotifications"]
+- !private ["So16NSObjectProtocolP", "registerForRemoteNotifications"]
+- !private ["So16NSObjectProtocolP", "requestAuthorization"]
+- !private ["So16NSObjectProtocolP", "shared"]
 - ["So16NSObjectProtocolP", "window"]
 - ["So16NSObjectProtocolP", ""]
+- !private ["So14NSSecureCodingP", "authorizationStatus"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So8NSStringC", "init"]
+- !private ["s9OptionSetP", "alert"]
+- !private ["s9OptionSetP", "badge"]
+- !private ["s9OptionSetP", "sound"]
+- !private ["s22RandomAccessCollectionP", "joined"]
+- !private ["s22RandomAccessCollectionP", "map"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "joined"]
+- !private ["s26RangeReplaceableCollectionP", "map"]
+- !private ["s16RawRepresentableP", "alert"]
+- !private ["s16RawRepresentableP", "authorized"]
+- !private ["s16RawRepresentableP", "badge"]
+- !private ["s16RawRepresentableP", "sound"]
+- !private ["10RealmSwift0A15CollectionValueP", "_getBuiltinLogicValue"]
+- !private ["10RealmSwift0A15CollectionValueP", "init"]
+- !private ["10RealmSwift0A15CollectionValueP", "map"]
+- !private ["10RealmSwift0A12OptionalTypeP", "_getBuiltinLogicValue"]
+- !private ["10Foundation20ReferenceConvertibleP", "map"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "joined"]
+- !private ["s8SequenceP", "map"]
+- !private ["s10SetAlgebraP", "alert"]
+- !private ["s10SetAlgebraP", "badge"]
+- !private ["s10SetAlgebraP", "sound"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So13UIApplicationC", "registerForRemoteNotifications"]
+- !private ["So13UIApplicationC", "shared"]
+- !private ["So21UIApplicationDelegateP", "String"]
+- !private ["So21UIApplicationDelegateP", "UIApplication"]
+- !private ["So21UIApplicationDelegateP", "UNUserNotificationCenter"]
+- !private ["So21UIApplicationDelegateP", "VKSdk"]
 - ["So21UIApplicationDelegateP", "application"]
 - ["So21UIApplicationDelegateP", "applicationDidBecomeActive"]
 - ["So21UIApplicationDelegateP", "applicationDidEnterBackground"]
@@ -162,8 +370,15 @@ depends-member:
 - ["So21UIApplicationDelegateP", "applicationWillEnterForeground"]
 - ["So21UIApplicationDelegateP", "applicationWillResignActive"]
 - ["So21UIApplicationDelegateP", "applicationWillTerminate"]
+- !private ["So21UIApplicationDelegateP", "getNotificationSettings"]
+- !private ["So21UIApplicationDelegateP", "print"]
+- !private ["So21UIApplicationDelegateP", "registerForPushNotifications"]
 - ["So21UIApplicationDelegateP", "window"]
 - ["So21UIApplicationDelegateP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "String"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIApplication"]
+- !private ["So30UIPasteConfigurationSupportingP", "UNUserNotificationCenter"]
+- !private ["So30UIPasteConfigurationSupportingP", "VKSdk"]
 - ["So30UIPasteConfigurationSupportingP", "application"]
 - ["So30UIPasteConfigurationSupportingP", "applicationDidBecomeActive"]
 - ["So30UIPasteConfigurationSupportingP", "applicationDidEnterBackground"]
@@ -176,13 +391,24 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", "applicationWillEnterForeground"]
 - ["So30UIPasteConfigurationSupportingP", "applicationWillResignActive"]
 - ["So30UIPasteConfigurationSupportingP", "applicationWillTerminate"]
+- !private ["So30UIPasteConfigurationSupportingP", "getNotificationSettings"]
 - !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "print"]
+- !private ["So30UIPasteConfigurationSupportingP", "registerForPushNotifications"]
+- !private ["So30UIPasteConfigurationSupportingP", "registerForRemoteNotifications"]
+- !private ["So30UIPasteConfigurationSupportingP", "shared"]
 - ["So30UIPasteConfigurationSupportingP", "window"]
 - ["So30UIPasteConfigurationSupportingP", ""]
 - ["So11UIResponderC", "Bool"]
+- ["So11UIResponderC", "Data"]
+- ["So11UIResponderC", "Error"]
+- ["So11UIResponderC", "String"]
 - ["So11UIResponderC", "UIApplication"]
 - ["So11UIResponderC", "UIApplicationLaunchOptionsKey"]
 - ["So11UIResponderC", "UIWindow"]
+- !private ["So11UIResponderC", "UNUserNotificationCenter"]
+- ["So11UIResponderC", "URL"]
+- !private ["So11UIResponderC", "VKSdk"]
 - ["So11UIResponderC", "application"]
 - ["So11UIResponderC", "applicationDidBecomeActive"]
 - ["So11UIResponderC", "applicationDidEnterBackground"]
@@ -195,9 +421,18 @@ depends-member:
 - ["So11UIResponderC", "applicationWillEnterForeground"]
 - ["So11UIResponderC", "applicationWillResignActive"]
 - ["So11UIResponderC", "applicationWillTerminate"]
+- ["So11UIResponderC", "getNotificationSettings"]
 - ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "print"]
+- ["So11UIResponderC", "registerForPushNotifications"]
+- !private ["So11UIResponderC", "registerForRemoteNotifications"]
+- !private ["So11UIResponderC", "shared"]
 - ["So11UIResponderC", "window"]
 - ["So11UIResponderC", ""]
+- !private ["So30UIResponderStandardEditActionsP", "String"]
+- !private ["So30UIResponderStandardEditActionsP", "UIApplication"]
+- !private ["So30UIResponderStandardEditActionsP", "UNUserNotificationCenter"]
+- !private ["So30UIResponderStandardEditActionsP", "VKSdk"]
 - ["So30UIResponderStandardEditActionsP", "application"]
 - ["So30UIResponderStandardEditActionsP", "applicationDidBecomeActive"]
 - ["So30UIResponderStandardEditActionsP", "applicationDidEnterBackground"]
@@ -210,9 +445,46 @@ depends-member:
 - ["So30UIResponderStandardEditActionsP", "applicationWillEnterForeground"]
 - ["So30UIResponderStandardEditActionsP", "applicationWillResignActive"]
 - ["So30UIResponderStandardEditActionsP", "applicationWillTerminate"]
+- !private ["So30UIResponderStandardEditActionsP", "getNotificationSettings"]
 - !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "print"]
+- !private ["So30UIResponderStandardEditActionsP", "registerForPushNotifications"]
+- !private ["So30UIResponderStandardEditActionsP", "registerForRemoteNotifications"]
+- !private ["So30UIResponderStandardEditActionsP", "shared"]
 - ["So30UIResponderStandardEditActionsP", "window"]
 - ["So30UIResponderStandardEditActionsP", ""]
+- !private ["SC22UNAuthorizationOptionsV", "alert"]
+- !private ["SC22UNAuthorizationOptionsV", "badge"]
+- !private ["SC22UNAuthorizationOptionsV", "sound"]
+- !private ["SC21UNAuthorizationStatusO", "authorized"]
+- !private ["So22UNNotificationSettingsC", "authorizationStatus"]
+- !private ["So24UNUserNotificationCenterC", "current"]
+- !private ["So24UNUserNotificationCenterC", "getNotificationSettings"]
+- !private ["So24UNUserNotificationCenterC", "requestAuthorization"]
+- !private ["9Alamofire14URLConvertibleP", "init"]
+- !private ["So5VKSdkC", "processOpen"]
+- !private ["s14_ArrayProtocolP", "joined"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s23_BidirectionalIndexableP", "joined"]
+- !private ["s23_BidirectionalIndexableP", "map"]
+- !private ["s24_DestructorSafeContainerP", "joined"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s10_IndexableP", "joined"]
+- !private ["s10_IndexableP", "map"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["s14_IndexableBaseP", "joined"]
+- !private ["s14_IndexableBaseP", "map"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "String"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIApplication"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UNUserNotificationCenter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "VKSdk"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "application"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "applicationDidBecomeActive"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "applicationDidEnterBackground"]
@@ -225,26 +497,113 @@ depends-member:
 - ["10Foundation27_KeyValueCodingAndObservingP", "applicationWillEnterForeground"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "applicationWillResignActive"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "applicationWillTerminate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "authorizationStatus"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "current"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getNotificationSettings"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "processOpen"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "registerForPushNotifications"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "registerForRemoteNotifications"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "requestAuthorization"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "window"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s17_MutableIndexableP", "joined"]
+- !private ["s17_MutableIndexableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "joined"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s22_RandomAccessIndexableP", "joined"]
+- !private ["s22_RandomAccessIndexableP", "map"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "joined"]
+- !private ["s26_RangeReplaceableIndexableP", "map"]
+- !private ["s16_SwiftStringViewP", "init"]
 depends-nominal:
 - "8AppForVK0A8DelegateC"
+- !private "Sa"
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
 - "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
 - "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
+- !private "10Foundation4DataV"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
 - "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
 - "s8HashableP"
+- !private "10SwiftyJSON17JSONSubscriptTypeP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
 - "So8NSObjectC"
 - "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "s9OptionSetP"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- !private "10RealmSwift0A15CollectionValueP"
+- !private "10RealmSwift0A12OptionalTypeP"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "s8SequenceP"
+- !private "s10SetAlgebraP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So13UIApplicationC"
 - "So21UIApplicationDelegateP"
 - "So30UIPasteConfigurationSupportingP"
 - "So11UIResponderC"
 - "So30UIResponderStandardEditActionsP"
+- !private "SC22UNAuthorizationOptionsV"
+- !private "SC21UNAuthorizationStatusO"
+- !private "So22UNNotificationSettingsC"
+- !private "So24UNUserNotificationCenterC"
+- !private "9Alamofire14URLConvertibleP"
+- !private "So5VKSdkC"
+- !private "s14_ArrayProtocolP"
+- !private "s23_BidirectionalIndexableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
 - "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s17_MutableIndexableP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s22_RandomAccessIndexableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s16_SwiftStringViewP"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64.swiftmodule"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Modules/RealmSwift.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
@@ -257,14 +616,115 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/usr/include/objc/ObjectiveC.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/usr/include/Darwin.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
-interface-hash: "b306772a10463f7c5fce689aa6452f8e"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/VK-ios-sdk/VK_ios_sdk.framework/Headers/NSString+MD5.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/VK-ios-sdk/VK_ios_sdk.framework/Headers/VKApiCaptcha.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/VK-ios-sdk/VK_ios_sdk.framework/Headers/VK-ios-sdk-umbrella.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Headers/RealmSwift-umbrella.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSchema.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectSchema.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectBase_Dynamic.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm_Dynamic.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm+Sync.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealmConfiguration+Sync.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/NSError+RLMSync.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMThreadSafeReference.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/VK-ios-sdk/VK_ios_sdk.framework/Headers/VKUploadImage.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/VK-ios-sdk/VK_ios_sdk.framework/Headers/VKBundle.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectStore.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/VK-ios-sdk/VK_ios_sdk.framework/Headers/VKApiBase.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMOptionalBase.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/VK-ios-sdk/VK_ios_sdk.framework/Headers/VKUploadPhotoBase.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectBase.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMListBase.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/VK-ios-sdk/VK_ios_sdk.framework/Headers/VKResponse.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSchema_Private.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectSchema_Private.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectBase_Private.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSyncUtil_Private.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMRealm_Private.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSyncConfiguration_Private.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMRealmConfiguration_Private.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMCollection_Private.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMResults_Private.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObject_Private.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMArray_Private.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMProperty_Private.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/VK-ios-sdk/VK_ios_sdk.framework/Headers/VKRelative.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/VK-ios-sdk/VK_ios_sdk.framework/Headers/VKPhotoSize.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/VK-ios-sdk/VK_ios_sdk.framework/Headers/VKApi.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/VK-ios-sdk/VK_ios_sdk.framework/Headers/VKSdk.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/VK-ios-sdk/VK_ios_sdk.framework/Headers/VKUtil.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncUtil.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/VK-ios-sdk/VK_ios_sdk.framework/Headers/VKApiWall.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/VK-ios-sdk/VK_ios_sdk.framework/Headers/VKSchool.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/Realm.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMPlatform.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/VK-ios-sdk/VK_ios_sdk.framework/Headers/VKAccessToken.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/VK-ios-sdk/VK_ios_sdk.framework/Headers/VKSdkVersion.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncSession.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncPermission.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/VK-ios-sdk/VK_ios_sdk.framework/Headers/VKOperation.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/VK-ios-sdk/VK_ios_sdk.framework/Headers/VKJSONOperation.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/VK-ios-sdk/VK_ios_sdk.framework/Headers/VKHTTPOperation.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMMigration.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncConfiguration.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealmConfiguration.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMCollection.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/VK-ios-sdk/VK_ios_sdk.framework/Headers/VKAudio.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/VK-ios-sdk/VK_ios_sdk.framework/Headers/VKPhoto.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/VK-ios-sdk/VK_ios_sdk.framework/Headers/VKGroup.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncManager.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/VK-ios-sdk/VK_ios_sdk.framework/Headers/VKAuthorizeController.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/VK-ios-sdk/VK_ios_sdk.framework/Headers/VKShareDialogController.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/VK-ios-sdk/VK_ios_sdk.framework/Headers/VKCaptchaViewController.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/VK-ios-sdk/VK_ios_sdk.framework/Headers/VKRequestsScheduler.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/VK-ios-sdk/VK_ios_sdk.framework/Headers/VKUser.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncUser.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/VK-ios-sdk/VK_ios_sdk.framework/Headers/NSError+VKError.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/VK-ios-sdk/VK_ios_sdk.framework/Headers/VKError.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMAccessor.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/VK-ios-sdk/VK_ios_sdk.framework/Headers/VKDocs.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/VK-ios-sdk/VK_ios_sdk.framework/Headers/VKApiDocs.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/VK-ios-sdk/VK_ios_sdk.framework/Headers/VKApiFriends.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/VK-ios-sdk/VK_ios_sdk.framework/Headers/VKLikes.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncCredentials.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/VK-ios-sdk/VK_ios_sdk.framework/Headers/VKApiModels.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/VK-ios-sdk/VK_ios_sdk.framework/Headers/VKPermissions.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/VK-ios-sdk/VK_ios_sdk.framework/Headers/VKApiPhotos.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/VK-ios-sdk/VK_ios_sdk.framework/Headers/VKApiGroups.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/VK-ios-sdk/VK_ios_sdk.framework/Headers/VKApiUsers.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/VK-ios-sdk/VK_ios_sdk.framework/Headers/VKImageParameters.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/VK-ios-sdk/VK_ios_sdk.framework/Headers/VKCounters.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMResults.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMConstants.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/VK-ios-sdk/VK_ios_sdk.framework/Headers/VKObject.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObject.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/VK-ios-sdk/VK_ios_sdk.framework/Headers/VKSharedTransitioningObject.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/VK-ios-sdk/VK_ios_sdk.framework/Headers/VKApiObject.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Headers/RealmSwift-Swift.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/VK-ios-sdk/VK_ios_sdk.framework/Headers/VKAuthorizationResult.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/VK-ios-sdk/VK_ios_sdk.framework/Headers/VKHTTPClient.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/VK-ios-sdk/VK_ios_sdk.framework/Headers/VKRequest.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/VK-ios-sdk/VK_ios_sdk.framework/Headers/VKBatchRequest.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/VK-ios-sdk/VK_ios_sdk.framework/Headers/VKUploadPhotoRequest.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/VK-ios-sdk/VK_ios_sdk.framework/Headers/VKUploadWallPhotoRequest.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/VK-ios-sdk/VK_ios_sdk.framework/Headers/VKUploadMessagesPhotoRequest.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/VK-ios-sdk/VK_ios_sdk.framework/Headers/VKApiConst.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/VK-ios-sdk/VK_ios_sdk.framework/Headers/VKCaptchaView.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMArray.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/VK-ios-sdk/VK_ios_sdk.framework/Headers/VKApiObjectArray.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/VK-ios-sdk/VK_ios_sdk.framework/Headers/OrderedDictionary.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/VK-ios-sdk/VK_ios_sdk.framework/Headers/VKUniversity.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/VK-ios-sdk/VK_ios_sdk.framework/Headers/VKActivity.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMProperty.h"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/VK-ios-sdk/VK_ios_sdk.framework/Modules/module.modulemap"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Modules/module.modulemap"
+- "/Users/spartakermolaev/Desktop/AppForVK/DerivedData/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Modules/module.modulemap"
+interface-hash: "1ea6f49b6dcf68e20df606d894cb760d"
